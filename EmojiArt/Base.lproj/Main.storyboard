@@ -99,7 +99,11 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="7DO-RV-j48">
-                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="z2l-Uu-y0r"/>
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="z2l-Uu-y0r">
+                            <connections>
+                                <action selector="newEmojiArt:" destination="YoR-xG-1og" id="pxO-ju-Ajt"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LQR-ot-uf9" userLabel="First Responder" sceneMemberID="firstResponder"/>
